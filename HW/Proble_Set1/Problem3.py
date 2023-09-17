@@ -7,6 +7,6 @@ def getevents(nums,t):
         for j in range(i + 1, len(nums)):
             if(nums[i] > t * nums[j]):
                 print("Excute event E because a[%d] > %d * a[%d]"%(i,t,j))
-nums = [4,2,11,5,7,8]
-t = 1
+nums = [8, 7, 2, 2, 0, 9, 6]
+t = 2
 getevents(nums,t)
